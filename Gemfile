@@ -50,3 +50,8 @@ gem 'simple_form'
 gem 'devise'
 gem 'omniauth-github'
 gem 'figaro'
+
+#group :test do
+#  gem "simplecov"
+#  gem "codeclimate-test-reporter", "~> 1.0.0"
+#end
