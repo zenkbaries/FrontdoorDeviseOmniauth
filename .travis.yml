@@ -4,3 +4,8 @@ language: ruby
 addons:
     code_climate:
       repo_token: db83e3b38fd2d4309f4cb8f08aba78a2d1d21541345e5eb3205f0a24dc88cb3d
+
+before_deploy:
+- gem install mime-types -v 2.6.2
+before_deploy:
+#- gem install mime-types -v 2.6.2
