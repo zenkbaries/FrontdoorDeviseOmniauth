@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
@@ -51,7 +50,9 @@ gem 'devise'
 gem 'omniauth-github'
 gem 'figaro'
 
-#group :test do
+gem 'rubocop', '~> 0.36.0', require: false
+
+# group :test do
 #  gem "simplecov"
 #  gem "codeclimate-test-reporter", "~> 1.0.0"
-#end
+# end
